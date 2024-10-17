@@ -3,7 +3,7 @@
 ## Description: Containerize a simple static HTML website.
 
 ## Steps:
--> Create a basic static website (HTML, CSS).
+## -> Create a basic static website (HTML, CSS).
 
 ## -> Write a Dockerfile with Nginx or Apache.
 #Use the official Nginx image as the base
