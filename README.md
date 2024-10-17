@@ -22,7 +22,7 @@ EXPOSE 80
 
 docker build -t my-static-website .
 
-##-> Run the container and access the website via browser.
+## -> Run the container and access the website via browser.
 
 docker run -d -p 8000:80 my-static-website
 
