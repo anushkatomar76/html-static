@@ -19,10 +19,13 @@ COPY . /usr/share/nginx/html/
 EXPOSE 80
 
 ## -> Build the Docker image.
+
 docker build -t my-static-website .
 
 ##-> Run the container and access the website via browser.
+
 docker run -d -p 8000:80 my-static-website
+
 (This command maps port 8000 on your local machine to port 80 inside the container (where Nginx is serving your website). The -d flag runs the container in detached mode (in the background)).
 
 
